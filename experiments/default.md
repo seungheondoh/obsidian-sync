@@ -1,15 +1,15 @@
 ---
 tags: [ml, music-llm, experiment]
-status: running
+status: completed
 experiment: default
 started: 2026-04-29 03:09:23
-updated: 2026-04-29 03:09:23
+updated: 2026-04-29 03:12:14
 best_val_loss: 9.5237
 ---
 
 # Experiment: default
 
-> Status: **RUNNING** | Started: `2026-04-29 03:09:23` | Updated: `2026-04-29 03:09:23`
+> Status: **COMPLETED** | Started: `2026-04-29 03:09:23` | Updated: `2026-04-29 03:12:14`
 
 ## Model Configuration
 
