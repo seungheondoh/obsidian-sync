@@ -2,19 +2,26 @@
 tags: [ml, music-llm, experiment]
 status: running
 experiment: default
-started: 
-updated: 2026-04-29 03:09:15
+started: 2026-04-29 03:09:23
+updated: 2026-04-29 03:09:23
 best_val_loss: 9.5237
 ---
 
 # Experiment: default
 
-> Status: **RUNNING** | Started: `` | Updated: `2026-04-29 03:09:15`
+> Status: **RUNNING** | Started: `2026-04-29 03:09:23` | Updated: `2026-04-29 03:09:23`
 
 ## Model Configuration
 
 | Parameter | Value |
 |-----------|-------|
+| `model_path` | `Qwen/Qwen3-0.6B` |
+| `audio_encoder` | `mel_spec` |
+| `adapter` | `mlp` |
+| `lora_rank` | `128` |
+| `precision` | `32` |
+| `max_steps` | `100` |
+| `batch_size` | `?` |
 
 ## Training Metrics
 
