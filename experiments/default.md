@@ -1,45 +1,38 @@
 ---
 tags: [ml, music-llm, experiment]
-status: completed
+status: running
 experiment: default
-started: 2026-04-29 03:09:23
-updated: 2026-04-29 03:12:14
-best_val_loss: 9.5237
+started: 
+updated: 2026-04-30 22:57:56
+best_val_loss: 9.5222
 ---
 
 # Experiment: default
 
-> Status: **COMPLETED** | Started: `2026-04-29 03:09:23` | Updated: `2026-04-29 03:12:14`
+> Status: **RUNNING** | Started: `` | Updated: `2026-04-30 22:57:56`
 
 ## Model Configuration
 
 | Parameter | Value |
 |-----------|-------|
-| `model_path` | `Qwen/Qwen3-0.6B` |
-| `audio_encoder` | `mel_spec` |
-| `adapter` | `mlp` |
-| `lora_rank` | `128` |
-| `precision` | `32` |
-| `max_steps` | `100` |
-| `batch_size` | `?` |
 
 ## Training Metrics
 
 | Epoch | Step | Train Loss | Val Loss | LR |
 |-------|------|-----------|---------|-----|
-| 1 | 0 | -1.0000 | 9.5237 | -1.00e+00 |
+| 1 | 0 | -1.0000 | 9.5222 | -1.00e+00 |
 
 ## Loss Trend (ASCII)
 
 ```
-val_loss  9.524 | |
+val_loss  9.522 | |
                   | |
                   | |
                   | |
                   | |
                   | |
                   | |
-          9.524 | |
+          9.522 | |
                    └─┘
                    step 1step 1
 train_loss -1.000 | |
