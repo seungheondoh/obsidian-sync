@@ -1,15 +1,15 @@
 ---
 tags: [ml, music-llm, experiment]
-status: running
+status: completed
 experiment: cross_attn
 started: 2026-05-01 00:32:24
-updated: 2026-05-01 00:42:43
+updated: 2026-05-01 00:42:47
 best_val_loss: 3.5229
 ---
 
 # Experiment: cross_attn
 
-> Status: **RUNNING** | Started: `2026-05-01 00:32:24` | Updated: `2026-05-01 00:42:43`
+> Status: **COMPLETED** | Started: `2026-05-01 00:32:24` | Updated: `2026-05-01 00:42:47`
 
 ## Model Configuration
 
