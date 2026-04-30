@@ -3,13 +3,13 @@ tags: [ml, music-llm, experiment]
 status: running
 experiment: default
 started: 2026-04-30 22:58:05
-updated: 2026-04-30 22:58:05
-best_val_loss: 9.5222
+updated: 2026-04-30 23:04:50
+best_val_loss: 3.5214
 ---
 
 # Experiment: default
 
-> Status: **RUNNING** | Started: `2026-04-30 22:58:05` | Updated: `2026-04-30 22:58:05`
+> Status: **RUNNING** | Started: `2026-04-30 22:58:05` | Updated: `2026-04-30 23:04:50`
 
 ## Model Configuration
 
@@ -28,30 +28,31 @@ best_val_loss: 9.5222
 | Epoch | Step | Train Loss | Val Loss | LR |
 |-------|------|-----------|---------|-----|
 | 1 | 0 | -1.0000 | 9.5222 | -1.00e+00 |
+| 2 | 250 | 3.4512 | 3.5214 | 4.53e-05 |
 
 ## Loss Trend (ASCII)
 
 ```
-val_loss  9.522 | |
-                  | |
-                  | |
-                  | |
-                  | |
-                  | |
-                  | |
-          9.522 | |
-                   └─┘
-                   step 1step 1
-train_loss -1.000 | |
-                   | |
-                   | |
-                   | |
-                   | |
-                   | |
-                   | |
-           -1.000 | |
-                    └─┘
-                    step 1step 1
+val_loss  9.522 |█ |
+                  |█ |
+                  |█ |
+                  |█ |
+                  |█ |
+                  |█ |
+                  |█ |
+          4.271 |█ |
+                   └──┘
+                   step 1step 2
+train_loss 3.451 | █|
+                   | █|
+                   | █|
+                   | █|
+                   | █|
+                   | █|
+                   | █|
+           -0.444 | █|
+                    └──┘
+                    step 1step 2
 ```
 
 ## Generated Captions
