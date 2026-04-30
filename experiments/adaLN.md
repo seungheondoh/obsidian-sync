@@ -1,15 +1,15 @@
 ---
 tags: [ml, music-llm, experiment]
-status: running
+status: completed
 experiment: adaLN
 started: 2026-05-01 00:43:47
-updated: 2026-05-01 00:51:33
+updated: 2026-05-01 00:51:36
 best_val_loss: 3.8489
 ---
 
 # Experiment: adaLN
 
-> Status: **RUNNING** | Started: `2026-05-01 00:43:47` | Updated: `2026-05-01 00:51:33`
+> Status: **COMPLETED** | Started: `2026-05-01 00:43:47` | Updated: `2026-05-01 00:51:36`
 
 ## Model Configuration
 
