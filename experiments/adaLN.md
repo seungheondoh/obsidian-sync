@@ -3,13 +3,13 @@ tags: [ml, music-llm, experiment]
 status: running
 experiment: adaLN
 started: 2026-05-01 00:43:47
-updated: 2026-05-01 00:43:47
-best_val_loss: 5.8115
+updated: 2026-05-01 00:45:42
+best_val_loss: 4.3397
 ---
 
 # Experiment: adaLN
 
-> Status: **RUNNING** | Started: `2026-05-01 00:43:47` | Updated: `2026-05-01 00:43:47`
+> Status: **RUNNING** | Started: `2026-05-01 00:43:47` | Updated: `2026-05-01 00:45:42`
 
 ## Model Configuration
 
@@ -29,28 +29,29 @@ best_val_loss: 5.8115
 | Epoch | Step | Train Loss | Val Loss | LR |
 |-------|------|-----------|---------|-----|
 | 1 | 0 | -1.0000 | 5.8115 | -1.00e+00 |
+| 2 | 250 | 4.2793 | 4.3397 | 4.53e-05 |
 
 ## Loss Trend (ASCII)
 
 ```
-val_loss  5.812 | |
-                  | |
-                  | |
-                  | |
-                  | |
-                  | |
-                  | |
-          5.812 | |
-                   └─┘
-                   step 1step 1
-train_loss -1.000 | |
-                   | |
-                   | |
-                   | |
-                   | |
-                   | |
-                   | |
-           -1.000 | |
-                    └─┘
-                    step 1step 1
+val_loss  5.811 |█ |
+                  |█ |
+                  |█ |
+                  |█ |
+                  |█ |
+                  |█ |
+                  |█ |
+          4.524 |█ |
+                   └──┘
+                   step 1step 2
+train_loss 4.279 | █|
+                   | █|
+                   | █|
+                   | █|
+                   | █|
+                   | █|
+                   | █|
+           -0.340 | █|
+                    └──┘
+                    step 1step 2
 ```
