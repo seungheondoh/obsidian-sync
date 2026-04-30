@@ -2,19 +2,27 @@
 tags: [ml, music-llm, experiment]
 status: running
 experiment: cross_attn
-started: 
-updated: 2026-05-01 00:32:16
+started: 2026-05-01 00:32:24
+updated: 2026-05-01 00:32:24
 best_val_loss: 5.8115
 ---
 
 # Experiment: cross_attn
 
-> Status: **RUNNING** | Started: `` | Updated: `2026-05-01 00:32:16`
+> Status: **RUNNING** | Started: `2026-05-01 00:32:24` | Updated: `2026-05-01 00:32:24`
 
 ## Model Configuration
 
 | Parameter | Value |
 |-----------|-------|
+| `model_path` | `Qwen/Qwen3-0.6B` |
+| `audio_encoder` | `mel_spec` |
+| `adapter` | `mlp` |
+| `conditioning_type` | `cross_attn` |
+| `lora_rank` | `128` |
+| `precision` | `32` |
+| `max_steps` | `1000` |
+| `batch_size` | `?` |
 
 ## Training Metrics
 
