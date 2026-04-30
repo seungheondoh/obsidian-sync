@@ -2,19 +2,27 @@
 tags: [ml, music-llm, experiment]
 status: running
 experiment: adaLN
-started: 
-updated: 2026-05-01 00:43:39
+started: 2026-05-01 00:43:47
+updated: 2026-05-01 00:43:47
 best_val_loss: 5.8115
 ---
 
 # Experiment: adaLN
 
-> Status: **RUNNING** | Started: `` | Updated: `2026-05-01 00:43:39`
+> Status: **RUNNING** | Started: `2026-05-01 00:43:47` | Updated: `2026-05-01 00:43:47`
 
 ## Model Configuration
 
 | Parameter | Value |
 |-----------|-------|
+| `model_path` | `Qwen/Qwen3-0.6B` |
+| `audio_encoder` | `mel_spec` |
+| `adapter` | `mlp` |
+| `conditioning_type` | `adaLN` |
+| `lora_rank` | `128` |
+| `precision` | `32` |
+| `max_steps` | `1000` |
+| `batch_size` | `?` |
 
 ## Training Metrics
 
